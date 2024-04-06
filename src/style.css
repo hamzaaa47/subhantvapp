@@ -1,0 +1,37 @@
+QMainWindow {
+    background-color: #000000;
+}
+
+QWidget[class="layout_widgets"] {
+    border: 5px solid red;
+    background-color: white;
+}
+
+QLabel[class="salat_timings"] {
+    font-size: 30px;
+    font-family: "Garamond";
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+QLabel#digital_clock {
+    font-size: 50px;
+    font-family: "Garamond";
+    padding-bottom: 20px;
+}
+
+QLabel#gebetszeiten_heading {
+    font-size: 30px;
+    font-family: "Garamond";
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+/* 
+
+Garamond
+Tahoma
+Trebuchet MS
+
+*/
