@@ -1,0 +1,165 @@
+2024-05-10 01:43:53 - root - INFO - Application started.
+2024-05-10 01:43:53 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 01:43:55 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 01:47:11 - root - INFO - Application started.
+2024-05-10 01:47:11 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 01:47:13 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 01:51:32 - root - INFO - Application started.
+2024-05-10 01:51:32 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 01:51:33 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 01:54:57 - root - INFO - Application started.
+2024-05-10 01:54:58 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 01:54:59 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 02:18:34 - root - INFO - Application started.
+2024-05-10 02:18:34 - root - ERROR - Fehler beim Laden des Stylesheets: [Errno 2] No such file or directory: '../src/style.css'
+2024-05-10 02:18:34 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 02:18:34 - root - ERROR - File not found: ../data/prayer_times.xlsx
+2024-05-10 02:18:35 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 02:18:36 - root - ERROR - Failed to load media files from directory ../media/: [WinError 3] Das System kann den angegebenen Pfad nicht finden: '../media/'
+2024-05-10 02:18:36 - root - ERROR - Failed to initialize the UI: 'NoneType' object has no attribute 'empty'
+2024-05-10 02:25:52 - root - INFO - Application started.
+2024-05-10 02:25:52 - root - ERROR - Fehler beim Laden des Stylesheets: [Errno 2] No such file or directory: '../src/style.css'
+2024-05-10 02:25:52 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 02:25:52 - root - ERROR - File not found: ../data/prayer_times.xlsx
+2024-05-10 02:25:52 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 02:25:53 - root - ERROR - Failed to load media files from directory ../media/: [WinError 3] Das System kann den angegebenen Pfad nicht finden: '../media/'
+2024-05-10 02:25:53 - root - ERROR - Failed to initialize the UI: 'NoneType' object has no attribute 'empty'
+2024-05-10 02:27:49 - root - INFO - Application started.
+2024-05-10 02:27:49 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 02:27:50 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 02:29:20 - root - INFO - Application started.
+2024-05-10 02:29:21 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 02:29:22 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 02:34:28 - root - INFO - Application started.
+2024-05-10 02:34:28 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 02:34:29 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 02:43:20 - root - INFO - Application started.
+2024-05-10 02:43:20 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 02:43:20 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 18:08:01 - root - INFO - Application started.
+2024-05-10 18:08:02 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 18:08:04 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 18:12:54 - root - INFO - Application started.
+2024-05-10 18:12:54 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 18:12:54 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-10 18:14:21 - root - INFO - Application started.
+2024-05-10 18:14:21 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-10 18:14:22 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:13:36 - root - INFO - Application started.
+2024-05-11 01:13:37 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:13:39 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:16:40 - root - INFO - Application started.
+2024-05-11 01:16:40 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:16:42 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:17:26 - root - INFO - Application started.
+2024-05-11 01:17:26 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:17:28 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:29:02 - root - INFO - Application started.
+2024-05-11 01:29:02 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:29:03 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:37:03 - root - INFO - Application started.
+2024-05-11 01:37:03 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:37:04 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:38:17 - root - INFO - Application started.
+2024-05-11 01:38:17 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:38:18 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:38:33 - root - INFO - Application started.
+2024-05-11 01:38:33 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:38:34 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:40:06 - root - INFO - Application started.
+2024-05-11 01:40:06 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:40:07 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:40:43 - root - INFO - Application started.
+2024-05-11 01:40:43 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:40:44 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:40:59 - root - INFO - Application started.
+2024-05-11 01:40:59 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:41:00 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:41:57 - root - INFO - Application started.
+2024-05-11 01:41:57 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:41:58 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:48:20 - root - INFO - Application started.
+2024-05-11 01:48:21 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:48:21 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:49:38 - root - INFO - Application started.
+2024-05-11 01:49:38 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:49:39 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:50:52 - root - INFO - Application started.
+2024-05-11 01:50:52 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:50:52 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 01:51:48 - root - INFO - Application started.
+2024-05-11 01:51:48 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 01:51:49 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 02:04:13 - root - INFO - Application started.
+2024-05-11 02:04:14 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 02:04:14 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 02:08:28 - root - INFO - Application started.
+2024-05-11 02:08:28 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 02:08:29 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 02:10:46 - root - INFO - Application started.
+2024-05-11 02:10:46 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 02:10:47 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-11 02:12:12 - root - INFO - Application started.
+2024-05-11 02:12:12 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-11 02:12:13 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-12 02:35:04 - root - INFO - Application started.
+2024-05-12 02:35:04 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-12 02:35:04 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-12 02:36:52 - root - INFO - Application started.
+2024-05-12 02:36:52 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-12 02:36:52 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-12 02:39:38 - root - INFO - Application started.
+2024-05-12 02:39:38 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-12 02:39:39 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-12 02:43:52 - root - INFO - Application started.
+2024-05-12 02:43:52 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-12 02:43:53 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-12 02:54:57 - root - INFO - Application started.
+2024-05-12 02:54:57 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-12 02:54:59 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-13 00:58:18 - root - INFO - Application started.
+2024-05-13 00:58:18 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-13 00:58:19 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-13 00:58:56 - root - INFO - Application started.
+2024-05-13 00:58:57 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-13 00:58:58 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-13 00:59:58 - root - INFO - Application started.
+2024-05-13 00:59:59 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-13 01:00:00 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-13 02:23:46 - root - INFO - Application started.
+2024-05-13 02:23:46 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-13 02:23:47 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-13 02:23:48 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-13 02:23:48 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-13 02:23:48 - media_display_widget - ERROR - Failed to load media files from directory d:\Programming\LanguagePython\subhanTV\media: 'PySide6.QtGui.QPixmap' object has no attribute 'toString'
+2024-05-13 02:27:06 - root - INFO - Application started.
+2024-05-13 02:27:06 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-13 02:27:06 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-13 02:27:07 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-13 02:27:07 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-13 02:27:07 - root - ERROR - Failed to display image: 'PySide6.QtGui.QPixmap' object has no attribute 'toLocalFile'
+2024-05-13 02:39:18 - root - INFO - Application started.
+2024-05-13 02:39:18 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-13 02:39:19 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-13 02:39:20 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-13 02:39:20 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-13 02:52:53 - root - INFO - Application started.
+2024-05-13 02:52:53 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-13 02:52:55 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-13 02:52:57 - root - INFO - Loaded image from disk: D:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-13 02:52:57 - root - INFO - Loaded image from disk: D:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-16 17:50:40 - root - INFO - Application started.
+2024-05-16 17:50:40 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-16 17:50:41 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-16 17:50:42 - root - INFO - Loaded image from disk: D:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-16 17:50:42 - root - INFO - Loaded image from disk: D:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-17 00:59:40 - root - INFO - Application started.
+2024-05-17 00:59:40 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-17 00:59:41 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-17 00:59:42 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-17 00:59:42 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-18 00:23:38 - root - INFO - Application started.
+2024-05-18 00:23:38 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-18 00:23:40 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-18 00:23:41 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-18 00:23:41 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg

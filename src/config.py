@@ -1,0 +1,30 @@
+import os
+import sys
+import logging
+
+if getattr(sys, 'frozen', False):
+    BASE_DIR = os.path.dirname(sys.executable)
+else:
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+CSS_PATH = os.path.join(BASE_DIR, 'src', 'style.css')
+MEDIA_PATH = os.path.join(BASE_DIR, "media")
+KALIMA_PATH = os.path.join(BASE_DIR, 'assets', "kalima-white.png")
+FILE_PRAYER_TIMES_PATH = os.path.join(BASE_DIR, 'data', "prayer_times.xlsx")
+LOG_PATH = os.path.join(BASE_DIR, 'application.log')
+
+# Logge die aktuellen Pfade
+logging.debug(f"BASE_DIR: {BASE_DIR}")
+logging.debug(f"MEDIA_PATH: {MEDIA_PATH}")
+logging.debug(f"FILE_PRAYER_TIMES_PATH: {FILE_PRAYER_TIMES_PATH}")
+logging.debug(f"LOG_PATH: {LOG_PATH}")
+
+
+WIDTH = 1536
+HEIGHT = 864
+
+HEADER_HEIGHT = 55
+FOOTER_HEIGHT = 40
+
+MEDIA_PLAYER_WIDTH = 1236
+MEDIA_PLAYER_HEIGHT = 769
