@@ -163,3 +163,106 @@
 2024-05-18 00:23:40 - media_display_widget - INFO - Initializing MediaDisplayWidget
 2024-05-18 00:23:41 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
 2024-05-18 00:23:41 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 00:37:14 - root - INFO - Application started.
+2024-05-20 00:37:14 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 00:37:14 - root - ERROR - An error occurred while loading the file: d:\Programming\LanguagePython\subhanTV\data\prayer_times.xlsx - 'charmap' codec can't decode byte 0x8d in position 639: character maps to <undefined>
+2024-05-20 00:37:14 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 00:37:15 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 00:37:15 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 00:37:15 - root - ERROR - Failed to initialize the UI: 'list' object has no attribute 'empty'
+2024-05-20 00:37:34 - root - INFO - Application started.
+2024-05-20 00:37:34 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 00:37:36 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 00:37:36 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 00:37:36 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 00:50:04 - root - INFO - Application started.
+2024-05-20 00:50:05 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 00:50:07 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 00:50:25 - root - INFO - Application started.
+2024-05-20 00:50:26 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 00:50:26 - root - ERROR - An error occurred while loading the file: d:\Programming\LanguagePython\subhanTV\data\prayer_times.xlsx - 'charmap' codec can't decode byte 0x8d in position 639: character maps to <undefined>
+2024-05-20 00:50:26 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 00:50:27 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 00:50:27 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 00:50:27 - root - ERROR - Failed to initialize the UI: 'list' object has no attribute 'empty'
+2024-05-20 01:03:14 - root - INFO - Application started.
+2024-05-20 01:03:14 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 01:03:14 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 01:03:15 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 01:03:15 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 01:03:15 - root - ERROR - Failed to initialize the UI: 'list' object has no attribute 'empty'
+2024-05-20 01:04:23 - root - INFO - Application started.
+2024-05-20 01:04:23 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 01:04:23 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 01:04:24 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 01:04:24 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 01:04:24 - root - ERROR - Failed to initialize the UI: 'list' object has no attribute 'empty'
+2024-05-20 01:08:00 - root - INFO - Application started.
+2024-05-20 01:08:00 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 01:08:00 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 01:08:01 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 01:08:01 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 01:08:01 - root - ERROR - Failed to initialize the UI: 'HH:MM'
+2024-05-20 01:10:48 - root - INFO - Application started.
+2024-05-20 01:10:49 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 01:10:49 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 01:10:50 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 01:10:50 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 01:10:50 - root - ERROR - Failed to initialize the UI: 'PySide6.QtWidgets.QLabel.__init__' called with wrong argument types:
+  PySide6.QtWidgets.QLabel.__init__(time)
+Supported signatures:
+  PySide6.QtWidgets.QLabel.__init__(Optional[PySide6.QtWidgets.QWidget] = None, PySide6.QtCore.Qt.WindowType = Default(Qt.WindowFlags))
+  PySide6.QtWidgets.QLabel.__init__(str, Optional[PySide6.QtWidgets.QWidget] = None, PySide6.QtCore.Qt.WindowType = Default(Qt.WindowFlags))
+2024-05-20 01:19:57 - root - INFO - Application started.
+2024-05-20 01:19:57 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 01:19:58 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 01:19:58 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 01:19:58 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 01:19:59 - root - ERROR - Failed to initialize the UI: 'PySide6.QtWidgets.QLabel.__init__' called with wrong argument types:
+  PySide6.QtWidgets.QLabel.__init__(time)
+Supported signatures:
+  PySide6.QtWidgets.QLabel.__init__(Optional[PySide6.QtWidgets.QWidget] = None, PySide6.QtCore.Qt.WindowType = Default(Qt.WindowFlags))
+  PySide6.QtWidgets.QLabel.__init__(str, Optional[PySide6.QtWidgets.QWidget] = None, PySide6.QtCore.Qt.WindowType = Default(Qt.WindowFlags))
+2024-05-20 01:59:45 - root - INFO - Application started.
+2024-05-20 01:59:45 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 01:59:45 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 01:59:46 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 01:59:46 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 02:01:51 - root - INFO - Application started.
+2024-05-20 02:01:51 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 02:01:51 - root - ERROR - An error occurred while loading the file: d:\Programming\LanguagePython\subhanTV\data\prayer_times.xlsx - 'str' object has no attribute 'strftime'
+2024-05-20 02:01:51 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 02:01:52 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 02:01:52 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 02:02:47 - root - INFO - Application started.
+2024-05-20 02:02:47 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 02:02:47 - root - ERROR - An error occurred while loading the file: d:\Programming\LanguagePython\subhanTV\data\prayer_times.xlsx - 'str' object has no attribute 'strftime'
+2024-05-20 02:02:47 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 02:02:48 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 02:02:48 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 02:08:30 - root - INFO - Application started.
+2024-05-20 02:08:30 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 02:08:30 - root - ERROR - An error occurred while loading the file: d:\Programming\LanguagePython\subhanTV\data\prayer_times.xlsx - 'str' object has no attribute 'strftime'
+2024-05-20 02:08:30 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 02:08:31 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 02:08:32 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 02:12:25 - root - INFO - Application started.
+2024-05-20 02:12:25 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 02:12:25 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 02:12:26 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 02:12:26 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-20 02:15:25 - root - INFO - Application started.
+2024-05-20 02:15:25 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-20 02:15:25 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-20 02:15:26 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-20 02:15:26 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-27 02:26:28 - root - INFO - Application started.
+2024-05-27 02:26:28 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-27 02:26:29 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-27 02:26:30 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-27 02:26:30 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg
+2024-05-27 02:27:09 - root - INFO - Application started.
+2024-05-27 02:27:09 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-05-27 02:27:09 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-05-27 02:27:10 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\001.jpeg
+2024-05-27 02:27:10 - root - INFO - Loaded image from disk: d:\Programming\LanguagePython\subhanTV\media\002.jpeg

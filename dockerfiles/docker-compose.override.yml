@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    volumes:
+      - .:/app  # Bind Mount des aktuellen Verzeichnisses ins Container-Arbeitsverzeichnis
+      - ./data:/data  # Volume für persistente Daten
+      - ./media:/media

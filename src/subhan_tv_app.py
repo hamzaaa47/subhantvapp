@@ -1,6 +1,5 @@
-import pandas as pd
+import openpyxl
 import logging
-import os
 from PySide6.QtWidgets import QMainWindow
 from PySide6.QtWidgets import *
 from PySide6.QtGui import *
@@ -35,23 +34,23 @@ class SubhanTvApp(QMainWindow):
 
     def try_load_data(self, file_path):
         try:
-            df = pd.read_excel(file_path)
-            df['HH:MM'] = pd.to_datetime(df['HH:MM'], format='%H:%M:%S').dt.strftime('%H:%M')
-            return df
+            prayer_times = []
+            wb = openpyxl.load_workbook(file_path)
+            sheet = wb.active
+
+            for row in sheet.iter_rows(min_row=2, values_only=True):  # Skip header row
+                prayer, time = row
+                time = time.strftime('%H:%M')
+                prayer_times.append({"Prayer": prayer, "HH:MM": time})
+
+            return prayer_times
         except FileNotFoundError:
             error_message = f"File not found: {file_path}"
             logging.error(error_message)
-            #print(error_message)
-            #self.file_error_messages.append(f"- {file_path}")
-        except pd.errors.EmptyDataError:
-            error_message = f"No data in file: {file_path}"
-            logging.error(error_message)
-            #print(error_message)
         except Exception as e:
             error_message = f"An error occurred while loading the file: {file_path} - {str(e)}"
             logging.error(error_message)
-            #print(error_message)
-        return None
+        return []
 
     def createUI(self):
         try:
@@ -241,7 +240,7 @@ class SubhanTvApp(QMainWindow):
         footer_layout.setContentsMargins(0, 0, 0, 0)
         footer_widget.setLayout(footer_layout)
 
-        jamaat_info_name1 = QLabel("Ahmadiyya Muslim Jamaat Mörfelden Walldorf")
+        jamaat_info_name1 = QLabel("Ahmadiyya Muslim Jamaat Mörfelden-Walldorf")
         jamaat_info_name1.setProperty("class", "footer_text")
         jamaat_info_name1.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
         footer_layout.addWidget(jamaat_info_name1)
@@ -262,7 +261,7 @@ class SubhanTvApp(QMainWindow):
         return vbox_widget
     
     def addPrayerTimes(self, layout):
-        if not self.prayer_times.empty:
+        if self.prayer_times:
 
             prayer_widget = QWidget()
             prayer_gridLayout = QGridLayout()
@@ -270,15 +269,15 @@ class SubhanTvApp(QMainWindow):
             prayer_gridLayout.setContentsMargins(0, 0, 0, 0)
 
 # Korrekte Grid hier erstellen
-            for index, row in self.prayer_times.iterrows():
+            for index, row in enumerate(self.prayer_times):
                         prayer = row['Prayer']
                         time = row['HH:MM']
-
+                        print(f"Prayer: {prayer}, Time: {time}")
                         prayer_label = QLabel(prayer)
                         prayer_label.setProperty("class", "salat_timings")
                         prayer_gridLayout.addWidget(prayer_label, index, 0)
 
-                        time_label = QLabel(time)
+                        time_label = QLabel(str(time))
                         time_label.setProperty("class", "salat_timings")
                         prayer_gridLayout.addWidget(time_label, index, 1)
             
@@ -289,7 +288,8 @@ class SubhanTvApp(QMainWindow):
         self.addPrayerTime(name, time)
 
     def addPrayerTime(self, name, time):
-        self.prayer_times[name] = time
+        self.prayer_times.append({"Prayer": name, "Time": time})
+        #self.prayer_times[name] = time
 
     def toggleHeaderWidgets(self):
         # Entscheide, welche Animation in welche Richtung läuft
