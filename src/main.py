@@ -6,6 +6,12 @@ from PySide6.QtCore import *
 from subhan_tv_app import SubhanTvApp
 from config import BASE_DIR, CSS_PATH, LOG_PATH
 
+os.environ["QT_QPA_PLATFORM"] = "xcb"
+os.environ['VDPAU_DRIVER'] = ''
+os.environ['LIBVA_DRIVER_NAME'] = ''
+os.environ['LIBVA_DRIVERS_PATH'] = ''
+os.environ['GST_VAAPI_ALL_DRIVERS'] = '1'
+
 def setup_logging():
     log_directory = os.path.dirname(LOG_PATH)
     if not os.path.exists(log_directory):

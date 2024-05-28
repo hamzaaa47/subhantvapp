@@ -50,10 +50,18 @@ class MediaDisplayWidget(QWidget):
 
         self.layout.addWidget(self.video_widget)
         self.layout.addWidget(self.image_label)
-        self.player = QMediaPlayer()
-        self.audio_output = QAudioOutput()
+        self.player = QMediaPlayer(self)
+        self.audio_output = QAudioOutput(self)
         self.player.setAudioOutput(self.audio_output)  # Verbinde AudioOutput mit MediaPlayer
         self.player.setVideoOutput(self.video_widget)
+
+        if not self.player.isAvailable():
+            self.logger.error("QMediaPlayer is not available")
+            available_backends = QMediaPlayer.availableMediaEngines()
+            self.logger.error(f"Available media engines: {available_backends}")
+        if not self.video_widget.isEnabled():
+            self.logger.error("QVideoWidget is not available")
+
         self.audio_output.setVolume(0.0)
 
         self.media_cache = MediaCache()

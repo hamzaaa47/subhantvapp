@@ -141,7 +141,7 @@ class SubhanTvApp(QMainWindow):
         
         self.kalima_label = QLabel()
         kalima_pixmap = QPixmap(KALIMA_PATH)  # Ersetze mit dem tatsächlichen Pfad zum Bild
-        fixed_width = 250 
+        fixed_width = 350 
         kalima_pixmap = kalima_pixmap.scaled(fixed_width, fixed_width, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         self.kalima_label.setPixmap(kalima_pixmap)
         self.kalima_label.setAlignment(Qt.AlignCenter)  # Zentriere das Bild, wenn gewünscht
@@ -193,7 +193,7 @@ class SubhanTvApp(QMainWindow):
         sideBar_widget = QWidget()
         sideBar_widget.setProperty("class", "clock_widgets")
         sideBar_widget.setFixedHeight(MEDIA_PLAYER_HEIGHT)
-        sideBar_widget.setFixedWidth(300)
+        sideBar_widget.setFixedWidth(WIDTH-MEDIA_PLAYER_WIDTH)
         
         sideBar_layout = QVBoxLayout()
         sideBar_layout.addStretch()

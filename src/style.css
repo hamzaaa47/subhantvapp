@@ -15,7 +15,8 @@ QWidget#footer_layout_widgets {
 }
 
 QLabel[class="header_text"] {
-    font-size: 22px;
+    font-family: "Segoe UI";
+    font-size: 30px;
     color: white;
     font-weight: 600;
     margin: 5px;
@@ -23,6 +24,7 @@ QLabel[class="header_text"] {
 }
 
 QLabel[class="footer_text"] {
+    font-family: "Segoe UI";
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
@@ -33,28 +35,28 @@ QLabel[class="footer_text"] {
 
 QLabel[class="salat_timings"] {
     color:black;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Garamond";
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
     margin-left: 40px;
 }
 
 QLabel#digital_clock {
     color:black;
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Garamond";
 }
 
 QLabel#date {
     color:black;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Garamond";
 }
 
 QLabel#gebetszeiten_heading {
     color:black;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Garamond";
     padding-bottom: 10px;
     font-weight: 700;

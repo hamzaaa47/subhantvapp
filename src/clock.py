@@ -18,7 +18,7 @@ class Clock(QWidget):
                                   QPoint(0, -90)])
         self.bColor = Qt.black #fcc585
         self.sColor = Qt.gray
-        self.setMinimumSize(250, 250)
+        self.setMinimumSize(350, 350)
 
     def paintEvent(self, event):
         rec = min(self.width(), self.height())
