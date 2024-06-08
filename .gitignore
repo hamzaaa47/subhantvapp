@@ -1,0 +1,9 @@
+# Ausschließen von spezifischen Dateien/Ordner
+venv/
+packages/
+dockerfiles/
+src/_pycache_
+media/
+
+# Ausschließen von allen .log-Dateien
+*.log

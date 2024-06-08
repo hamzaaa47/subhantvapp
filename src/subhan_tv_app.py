@@ -40,9 +40,11 @@ class SubhanTvApp(QMainWindow):
 
             for row in sheet.iter_rows(min_row=2, values_only=True):  # Skip header row
                 prayer, time = row
-                time = time.strftime('%H:%M')
-                prayer_times.append({"Prayer": prayer, "HH:MM": time})
-
+                if prayer and time:
+                    time = time.strftime('%H:%M')
+                    prayer_times.append({"Prayer": prayer, "HH:MM": time})
+                else:
+                    continue
             return prayer_times
         except FileNotFoundError:
             error_message = f"File not found: {file_path}"
@@ -289,7 +291,6 @@ class SubhanTvApp(QMainWindow):
 
     def addPrayerTime(self, name, time):
         self.prayer_times.append({"Prayer": name, "Time": time})
-        #self.prayer_times[name] = time
 
     def toggleHeaderWidgets(self):
         # Entscheide, welche Animation in welche Richtung läuft

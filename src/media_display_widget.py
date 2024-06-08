@@ -102,11 +102,11 @@ class MediaDisplayWidget(QWidget):
             error_message = f"Failed to load media files from directory {directory}: {str(e)}"
             logging.error(error_message)
         '''
+    
     def load_media(self):
         try:
             media, duration = self.media_files[self.current_media_index]
             if isinstance(media, QPixmap):
-            #if media_url.fileName().endswith(('.png', '.jpg', '.jpeg', '.bmp')):
                 self.load_image(media, duration)
             elif isinstance(media, QUrl):
                 self.load_video(media)
