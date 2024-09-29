@@ -1703,3 +1703,289 @@ Supported signatures:
 2024-06-08 23:34:20 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (3).png
 2024-06-08 23:34:20 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/002.jpeg
 2024-06-08 23:34:21 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (1).png
+2024-06-09 00:09:02 - root - INFO - Application started.
+2024-06-09 00:09:02 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-09 00:09:03 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-09 00:09:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (2).png
+2024-06-09 00:09:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (4).png
+2024-06-09 00:09:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (3).png
+2024-06-09 00:09:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/002.jpeg
+2024-06-09 00:09:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (1).png
+2024-06-09 13:13:32 - root - INFO - Application started.
+2024-06-09 13:13:32 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-09 13:13:32 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-09 13:13:33 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (2).png
+2024-06-09 13:13:33 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (4).png
+2024-06-09 13:13:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (3).png
+2024-06-09 13:13:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/002.jpeg
+2024-06-09 13:13:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (1).png
+2024-06-09 13:17:33 - root - INFO - Application started.
+2024-06-09 13:17:33 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-09 13:17:33 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-09 13:17:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (2).png
+2024-06-09 13:17:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (4).png
+2024-06-09 13:17:34 - media_display_widget - ERROR - Failed to load media files from directory /home/subhan2703/Apps/subhantvapp/media: '/home/subhan2703/Apps/subhantvapp/media/IMG_0144.JPG.peremoj4.partial'
+2024-06-09 13:18:33 - root - INFO - Application started.
+2024-06-09 13:18:33 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-09 13:18:33 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-09 13:18:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (2).png
+2024-06-09 13:18:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (4).png
+2024-06-09 13:18:35 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0144.JPG
+2024-06-09 13:18:35 - media_display_widget - ERROR - Failed to load media files from directory /home/subhan2703/Apps/subhantvapp/media: '/home/subhan2703/Apps/subhantvapp/media/IMG_0143.JPG.nuxilij5.partial'
+2024-06-09 13:21:31 - root - INFO - Application started.
+2024-06-09 13:21:31 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-09 13:21:31 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-09 13:21:33 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (2).png
+2024-06-09 13:21:33 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (4).png
+2024-06-09 13:21:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0144.JPG
+2024-06-09 13:21:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0154.JPG
+2024-06-09 13:21:35 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0155.JPG
+2024-06-09 13:21:35 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0153.JPG
+2024-06-09 13:21:36 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0146.JPG
+2024-06-09 13:21:36 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0143.JPG
+2024-06-09 13:21:37 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0139.JPG
+2024-06-09 13:21:38 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (3).png
+2024-06-09 13:21:38 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/002.jpeg
+2024-06-09 13:21:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (1).png
+2024-06-09 13:21:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0145.JPG
+2024-06-09 13:21:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Eid-ulAdha 2024.png
+2024-06-09 13:37:30 - root - INFO - Application started.
+2024-06-09 13:37:31 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-09 13:37:31 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-09 13:37:32 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (2).png
+2024-06-09 13:37:33 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (4).png
+2024-06-09 13:37:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0144.JPG
+2024-06-09 13:37:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0154.JPG
+2024-06-09 13:37:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0155.JPG
+2024-06-09 13:37:35 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0153.JPG
+2024-06-09 13:37:35 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0146.JPG
+2024-06-09 13:37:36 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0147.JPG
+2024-06-09 13:37:37 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0143.JPG
+2024-06-09 13:37:38 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0139.JPG
+2024-06-09 13:37:38 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (3).png
+2024-06-09 13:37:38 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/002.jpeg
+2024-06-09 13:37:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0160.JPG
+2024-06-09 13:37:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (1).png
+2024-06-09 13:37:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0145.JPG
+2024-06-09 13:37:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Eid-ulAdha 2024.png
+2024-06-09 13:40:06 - root - INFO - Application started.
+2024-06-09 13:40:06 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-09 13:40:06 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-09 13:40:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (2).png
+2024-06-09 13:40:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (4).png
+2024-06-09 13:40:08 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0144.JPG
+2024-06-09 13:40:08 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0154.JPG
+2024-06-09 13:40:08 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0155.JPG
+2024-06-09 13:40:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0153.JPG
+2024-06-09 13:40:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0146.JPG
+2024-06-09 13:40:10 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0147.JPG
+2024-06-09 13:40:11 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0143.JPG
+2024-06-09 13:40:12 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0139.JPG
+2024-06-09 13:40:12 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (3).png
+2024-06-09 13:40:12 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/002.jpeg
+2024-06-09 13:40:13 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0160.JPG
+2024-06-09 13:40:13 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/hf-eid (1).png
+2024-06-09 13:40:14 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/IMG_0145.JPG
+2024-06-09 13:40:14 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Eid-ulAdha 2024.png
+2024-06-24 22:10:38 - root - INFO - Application started.
+2024-06-24 22:10:38 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-24 22:10:39 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-24 22:10:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/008 (1).jpg
+2024-06-24 22:10:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/008 (5).jpg
+2024-06-24 22:10:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/008 (2).jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/004.jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/008 (6).jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/007 - Eid-ulAdha 2024.jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/006.jpeg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/005 (2).jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/008 (7).jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/005 (1).jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/003.jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/005 (4).jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/008 (3).jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/002.jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/008 (4).jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001.jpg
+2024-06-24 22:10:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/005 (3).jpg
+2024-06-25 20:57:15 - root - INFO - Application started.
+2024-06-25 20:57:16 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 20:57:16 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 20:57:17 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/007 - Eid-ulAdha 2024.jpg
+2024-06-25 20:57:17 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/006.jpeg
+2024-06-25 21:04:12 - root - INFO - Application started.
+2024-06-25 21:04:12 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:04:13 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:04:13 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:04:13 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/007 - Eid-ulAdha 2024.jpg
+2024-06-25 21:04:14 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:04:14 - media_display_widget - ERROR - Failed to load media files from directory /home/subhan2703/Apps/subhantvapp/media: '/home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG.tocaxoj6.partial'
+2024-06-25 21:04:39 - root - INFO - Application started.
+2024-06-25 21:04:39 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:04:39 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:04:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:04:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/007 - Eid-ulAdha 2024.jpg
+2024-06-25 21:04:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:04:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/006.jpeg
+2024-06-25 21:04:41 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-25 21:04:42 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-25 21:04:42 - media_display_widget - ERROR - Failed to load media files from directory /home/subhan2703/Apps/subhantvapp/media: '/home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG.lojomup4.partial'
+2024-06-25 21:05:04 - root - INFO - Application started.
+2024-06-25 21:05:04 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:05:05 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:05:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:05:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/007 - Eid-ulAdha 2024.jpg
+2024-06-25 21:05:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:05:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/006.jpeg
+2024-06-25 21:05:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-25 21:05:08 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-25 21:05:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-25 21:05:09 - media_display_widget - ERROR - Failed to load media files from directory /home/subhan2703/Apps/subhantvapp/media: '/home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg.tujewod9.partial'
+2024-06-25 21:06:30 - root - INFO - Application started.
+2024-06-25 21:06:30 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:06:31 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:06:32 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:06:32 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/007 - Eid-ulAdha 2024.jpg
+2024-06-25 21:06:32 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:06:32 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/006.jpeg
+2024-06-25 21:06:33 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-25 21:06:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-25 21:06:35 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-25 21:06:36 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-25 21:06:37 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-25 21:06:38 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-25 21:06:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-06-25 21:09:53 - root - INFO - Application started.
+2024-06-25 21:09:53 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:09:53 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:09:54 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:09:54 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/007 - Eid-ulAdha 2024.jpg
+2024-06-25 21:09:54 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:09:54 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/006.jpeg
+2024-06-25 21:09:55 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-25 21:09:56 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-25 21:09:57 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-25 21:09:58 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-25 21:09:58 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-25 21:09:59 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-25 21:10:01 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-06-25 21:16:15 - root - INFO - Application started.
+2024-06-25 21:16:15 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:16:15 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:16:16 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:16:16 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001.jpeg
+2024-06-25 21:16:16 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001 - Eid-ulAdha 2024.jpg
+2024-06-25 21:16:17 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:16:17 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-25 21:16:18 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-25 21:16:19 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-25 21:16:20 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-25 21:16:20 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-25 21:16:21 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-25 21:16:23 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-06-25 21:34:28 - root - INFO - Application started.
+2024-06-25 21:34:28 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:34:28 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:34:29 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:34:29 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001.jpeg
+2024-06-25 21:34:29 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001 - Eid-ulAdha 2024.jpg
+2024-06-25 21:34:29 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:34:30 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-25 21:34:31 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-25 21:34:32 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-25 21:34:33 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-25 21:34:33 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-25 21:34:34 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-25 21:34:36 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-06-25 21:35:00 - root - INFO - Application started.
+2024-06-25 21:35:00 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:35:00 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:35:00 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:35:00 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001.jpeg
+2024-06-25 21:35:00 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001 - Eid-ulAdha 2024.jpg
+2024-06-25 21:35:01 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:35:02 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-25 21:35:03 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-25 21:35:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-25 21:35:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-25 21:35:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-25 21:35:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-25 21:35:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-06-25 21:35:34 - root - INFO - Application started.
+2024-06-25 21:35:34 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:35:34 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:35:35 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:35:35 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001.jpeg
+2024-06-25 21:35:35 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001 - Eid-ulAdha 2024.jpg
+2024-06-25 21:35:36 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:35:36 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-25 21:35:37 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-25 21:35:38 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-25 21:35:39 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-25 21:35:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-25 21:35:40 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-25 21:35:42 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-06-25 21:36:12 - root - INFO - Application started.
+2024-06-25 21:36:12 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-25 21:36:13 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-25 21:36:14 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-25 21:36:14 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001.jpeg
+2024-06-25 21:36:14 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001 - Eid-ulAdha 2024.jpg
+2024-06-25 21:36:15 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-25 21:36:16 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-25 21:36:17 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-25 21:36:18 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-25 21:36:19 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-25 21:36:19 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-25 21:36:20 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-25 21:36:22 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-06-29 20:45:24 - root - INFO - Application started.
+2024-06-29 20:45:24 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-29 20:45:24 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-29 20:45:25 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-29 20:45:25 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001.jpeg
+2024-06-29 20:45:25 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001 - Eid-ulAdha 2024.jpg
+2024-06-29 20:45:26 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-29 20:45:27 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-29 20:45:28 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-29 20:45:29 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-29 20:45:29 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-29 20:45:30 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-29 20:45:31 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-29 20:45:33 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-06-29 21:05:00 - root - INFO - Application started.
+2024-06-29 21:05:00 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-29 21:05:00 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-29 21:05:01 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-29 21:05:01 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001.jpeg
+2024-06-29 21:05:02 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001 - Eid-ulAdha 2024.jpg
+2024-06-29 21:05:02 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-29 21:05:03 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-29 21:05:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-29 21:05:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-29 21:05:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-29 21:05:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-29 21:05:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-29 21:05:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-06-29 21:16:09 - root - INFO - Application started.
+2024-06-29 21:16:09 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-06-29 21:16:09 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-06-29 21:16:10 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 007.JPG
+2024-06-29 21:16:10 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001.jpeg
+2024-06-29 21:16:10 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/001 - Eid-ulAdha 2024.jpg
+2024-06-29 21:16:11 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 001.JPG
+2024-06-29 21:16:12 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 017.JPG
+2024-06-29 21:16:13 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 004.JPG
+2024-06-29 21:16:14 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 008.JPG
+2024-06-29 21:16:15 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 016.JPG
+2024-06-29 21:16:16 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 009.JPG
+2024-06-29 21:16:16 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 005.JPG
+2024-06-29 21:16:18 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Abdul Shakoor - Juni 2024 - Moer-Wall - 011-015.jpg
+2024-09-29 12:42:53 - root - INFO - Application started.
+2024-09-29 12:42:53 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-09-29 12:42:53 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-09-29 15:31:17 - root - INFO - Application started.
+2024-09-29 15:31:17 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-09-29 15:31:17 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-09-29 17:48:01 - root - INFO - Application started.
+2024-09-29 17:48:02 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-09-29 17:48:02 - media_display_widget - INFO - Initializing MediaDisplayWidget
