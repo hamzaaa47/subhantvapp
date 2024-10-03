@@ -275,9 +275,9 @@ class SubhanTvApp(QMainWindow):
                         prayer = row['Prayer']
                         time = row['HH:MM']
                         print(f"Prayer: {prayer}, Time: {time}")
-                        prayer_label = QLabel(prayer)
-                        prayer_label.setProperty("class", "salat_timings")
-                        prayer_gridLayout.addWidget(prayer_label, index, 0)
+                        self.prayer_label = QLabel(prayer)
+                        self.prayer_label.setProperty("class", "salat_timings")
+                        prayer_gridLayout.addWidget(self.prayer_label, index, 0)
 
                         time_label = QLabel(str(time))
                         time_label.setProperty("class", "salat_timings")
