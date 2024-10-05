@@ -118,6 +118,8 @@ class SubhanTvApp(QMainWindow):
                 #self.showMaximized() 
             #else:
                 self.showFullScreen()  
+        elif event.key() == Qt.Key_S:
+            self.close()
         else:
             super().keyPressEvent(event)
     
