@@ -2252,3 +2252,310 @@ Supported signatures:
 2024-10-05 21:31:56 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 016-022.jpg
 2024-10-05 21:31:57 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 004.JPG
 2024-10-05 21:31:57 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 006.JPG
+2024-10-06 12:44:04 - root - INFO - Application started.
+2024-10-06 12:44:04 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-10-06 12:44:04 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-10-06 12:44:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.32_d777a9a3.jpg
+2024-10-06 12:44:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 025.JPG
+2024-10-06 12:44:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (4).png
+2024-10-06 12:44:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (5).png
+2024-10-06 12:44:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 023.JPG
+2024-10-06 12:44:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 018.JPG
+2024-10-06 12:44:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 026.JPG
+2024-10-06 12:44:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (6).png
+2024-10-06 12:44:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 040.JPG
+2024-10-06 12:44:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 047.JPG
+2024-10-06 12:44:08 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 050.JPG
+2024-10-06 12:44:08 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (1).png
+2024-10-06 12:44:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 036-039.jpg
+2024-10-06 12:44:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 013.JPG
+2024-10-06 12:44:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.55_5ce8508d.jpg
+2024-10-06 12:44:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (2).png
+2024-10-06 12:44:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 017.JPG
+2024-10-06 12:44:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (3).png
+2024-10-06 12:44:10 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 014.JPG
+2024-10-06 12:44:10 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 002.JPG
+2024-10-06 12:44:11 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (8).png
+2024-10-06 12:44:11 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.43_26dff80c.jpg
+2024-10-06 12:44:11 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 052.JPG
+2024-10-06 12:44:11 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (7).png
+2024-10-06 12:44:11 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 053.JPG
+2024-10-06 12:44:12 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 016-022.jpg
+2024-10-06 12:44:13 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 004.JPG
+2024-10-06 12:44:13 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 006.JPG
+2024-10-06 12:48:02 - root - INFO - Application started.
+2024-10-06 12:48:02 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-10-06 12:48:02 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-10-06 12:48:02 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.32_d777a9a3.jpg
+2024-10-06 12:48:02 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 025.JPG
+2024-10-06 12:48:03 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (4).png
+2024-10-06 12:48:03 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (5).png
+2024-10-06 12:48:03 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 023.JPG
+2024-10-06 12:48:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 018.JPG
+2024-10-06 12:48:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 026.JPG
+2024-10-06 12:48:04 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (6).png
+2024-10-06 12:48:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 040.JPG
+2024-10-06 12:48:05 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 047.JPG
+2024-10-06 12:48:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 050.JPG
+2024-10-06 12:48:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (1).png
+2024-10-06 12:48:06 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 036-039.jpg
+2024-10-06 12:48:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 013.JPG
+2024-10-06 12:48:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.55_5ce8508d.jpg
+2024-10-06 12:48:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (2).png
+2024-10-06 12:48:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 017.JPG
+2024-10-06 12:48:07 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (3).png
+2024-10-06 12:48:08 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 014.JPG
+2024-10-06 12:48:08 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 002.JPG
+2024-10-06 12:48:08 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (8).png
+2024-10-06 12:48:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.43_26dff80c.jpg
+2024-10-06 12:48:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 052.JPG
+2024-10-06 12:48:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (7).png
+2024-10-06 12:48:09 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 053.JPG
+2024-10-06 12:48:10 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 016-022.jpg
+2024-10-06 12:48:11 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 004.JPG
+2024-10-06 12:48:11 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 006.JPG
+2024-10-06 12:48:12 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:13 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:14 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:15 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:16 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:17 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:18 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:19 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:20 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:21 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:22 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:23 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:24 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:25 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:26 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:27 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:28 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:29 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:30 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:31 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:32 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:33 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:34 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:35 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:36 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:37 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:38 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:39 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:40 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:41 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:42 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:43 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:44 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:45 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:46 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:47 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:48 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:49 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:50 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:51 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:52 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:53 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:54 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:55 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:56 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:57 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:58 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:48:59 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:00 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:01 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:02 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:03 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:04 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:05 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:06 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:07 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:08 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:09 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:10 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:11 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:12 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:13 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:14 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:15 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:16 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:17 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:18 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:19 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:20 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:21 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:22 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:23 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:24 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:25 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:26 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:27 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:28 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:29 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:30 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:31 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:32 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:33 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:34 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:35 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:36 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:37 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:38 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:39 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:40 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:41 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:42 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:43 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:44 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:45 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:46 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:47 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:48 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:49 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:50 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:51 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:52 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:53 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:54 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:55 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:56 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:57 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:58 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:49:59 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:00 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:01 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:02 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:03 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:04 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:05 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:06 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:07 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:08 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:09 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:10 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:11 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:12 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:13 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:14 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:15 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:16 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:17 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:18 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:19 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:20 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:21 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:22 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:23 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:24 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:25 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:26 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:27 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:28 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:29 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:30 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:31 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:32 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:33 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:34 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:35 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:36 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:37 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:38 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:39 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:40 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:41 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:42 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:43 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:44 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:45 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:46 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:47 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:48 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:49 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:50 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:51 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:52 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:53 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:54 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:55 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:56 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:57 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:58 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:50:59 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:00 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:01 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:02 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:03 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:04 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:05 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:06 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:07 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:08 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:09 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:10 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:11 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:12 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:13 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:14 - root - ERROR - Error updating time and date: Internal C++ object (PySide6.QtWidgets.QLabel) already deleted.
+2024-10-06 12:51:22 - root - INFO - Application started.
+2024-10-06 12:51:22 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-10-06 12:51:22 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-10-06 12:51:22 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.32_d777a9a3.jpg
+2024-10-06 12:51:22 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 025.JPG
+2024-10-06 12:51:22 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (4).png
+2024-10-06 12:51:22 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (5).png
+2024-10-06 12:51:23 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 023.JPG
+2024-10-06 12:51:24 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 018.JPG
+2024-10-06 12:51:24 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 026.JPG
+2024-10-06 12:51:24 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (6).png
+2024-10-06 12:51:25 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 040.JPG
+2024-10-06 12:51:25 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 047.JPG
+2024-10-06 12:51:25 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 050.JPG
+2024-10-06 12:51:26 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (1).png
+2024-10-06 12:51:26 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 036-039.jpg
+2024-10-06 12:51:27 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 013.JPG
+2024-10-06 12:51:27 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.55_5ce8508d.jpg
+2024-10-06 12:51:27 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (2).png
+2024-10-06 12:51:27 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 017.JPG
+2024-10-06 12:51:27 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (3).png
+2024-10-06 12:51:28 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 014.JPG
+2024-10-06 12:51:28 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 002.JPG
+2024-10-06 12:51:28 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (8).png
+2024-10-06 12:51:28 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.43_26dff80c.jpg
+2024-10-06 12:51:29 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 052.JPG
+2024-10-06 12:51:29 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (7).png
+2024-10-06 12:51:29 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 053.JPG
+2024-10-06 12:51:30 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 016-022.jpg
+2024-10-06 12:51:30 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 004.JPG
+2024-10-06 12:51:31 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 006.JPG
+2024-10-06 12:55:53 - root - INFO - Application started.
+2024-10-06 12:55:53 - subhan_tv_app - INFO - Initializing SubhanTvApp
+2024-10-06 12:55:53 - media_display_widget - INFO - Initializing MediaDisplayWidget
+2024-10-06 12:55:54 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.32_d777a9a3.jpg
+2024-10-06 12:55:54 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 025.JPG
+2024-10-06 12:55:54 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (4).png
+2024-10-06 12:55:54 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (5).png
+2024-10-06 12:55:54 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 023.JPG
+2024-10-06 12:55:55 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 018.JPG
+2024-10-06 12:55:56 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 026.JPG
+2024-10-06 12:55:56 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (6).png
+2024-10-06 12:55:56 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 040.JPG
+2024-10-06 12:55:57 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 047.JPG
+2024-10-06 12:55:57 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 050.JPG
+2024-10-06 12:55:57 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (1).png
+2024-10-06 12:55:58 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 036-039.jpg
+2024-10-06 12:55:58 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 013.JPG
+2024-10-06 12:55:59 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.55_5ce8508d.jpg
+2024-10-06 12:55:59 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (2).png
+2024-10-06 12:55:59 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 017.JPG
+2024-10-06 12:55:59 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (3).png
+2024-10-06 12:55:59 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 014.JPG
+2024-10-06 12:56:00 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 002.JPG
+2024-10-06 12:56:00 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (8).png
+2024-10-06 12:56:00 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/WhatsApp Bild 2024-09-20 um 16.12.43_26dff80c.jpg
+2024-10-06 12:56:00 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 052.JPG
+2024-10-06 12:56:00 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/TdoT2024 (7).png
+2024-10-06 12:56:01 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 053.JPG
+2024-10-06 12:56:02 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 016-022.jpg
+2024-10-06 12:56:02 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - 004.JPG
+2024-10-06 12:56:03 - root - INFO - Loaded image from disk: /home/subhan2703/Apps/subhantvapp/media/Islam Ausstellung - Moer-Wall - Mai 2024 - Tag 4 - 006.JPG

@@ -32,6 +32,12 @@ class SubhanTvApp(QMainWindow):
 # Create UI
         self.createUI()
 
+# Timer für Datenauslesen
+        '''
+        self.update_prayer_timer = QTimer(self)
+        self.update_prayer_timer.timeout.connect(self.check_for_updated_prayer_times)
+        self.update_prayer_timer.start(60000)'''
+
     def try_load_data(self, file_path):
         try:
             prayer_times = []
@@ -81,6 +87,20 @@ class SubhanTvApp(QMainWindow):
             error_message = f"Failed to initialize the UI: {str(e)}"
             logging.error(error_message)
             #print(error_message) 
+
+    '''    def check_for_updated_prayer_times(self):
+        # Lade die Gebetszeiten neu
+        new_prayer_times = self.try_load_data(FILE_PRAYER_TIMES_PATH)
+        
+        # Überprüfe, ob sich die Gebetszeiten geändert haben
+        if new_prayer_times != self.prayer_times:
+            self.prayer_times = new_prayer_times
+            self.updatePrayerTimesUI()
+    
+    def updatePrayerTimesUI(self):
+        # Hier die Methode, um das Gebetszeiten-Widget zu aktualisieren
+        self.addPrayerTimes(self.sideBar_layout)
+    '''
 
     def updateTimeAndDate(self):
         try:
