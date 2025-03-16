@@ -2,8 +2,9 @@
 venv/
 packages/
 dockerfiles/
-src/_pycache_
+src/__pycache__/
 media/
+data/
 
 # Ausschließen von allen .log-Dateien
 *.log

@@ -6,7 +6,8 @@ from PySide6.QtCore import *
 from subhan_tv_app import SubhanTvApp
 from config import BASE_DIR, CSS_PATH, LOG_PATH
 
-os.environ["QT_QPA_PLATFORM"] = "xcb"
+#os.environ["QT_QPA_PLATFORM"] = "xcb"
+os.environ["QT_QPA_PLATFORM"] = "windows"
 
 def setup_logging():
     log_directory = os.path.dirname(LOG_PATH)

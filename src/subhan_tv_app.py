@@ -7,7 +7,7 @@ from PySide6.QtCore import *
 from PySide6.QtMultimedia import *
 from clock import Clock
 from media_display_widget import MediaDisplayWidget
-from config import FILE_PRAYER_TIMES_PATH, KALIMA_PATH, MEDIA_PLAYER_HEIGHT, WIDTH, HEIGHT, MEDIA_PLAYER_WIDTH, HEADER_HEIGHT, FOOTER_HEIGHT
+from config import FILE_PRAYER_TIMES_PATH, FILE_RAMADAN_PLAN, KALIMA_PATH, MEDIA_PLAYER_HEIGHT, WIDTH, HEIGHT, MEDIA_PLAYER_WIDTH, HEADER_HEIGHT, FOOTER_HEIGHT
 
 
 class SubhanTvApp(QMainWindow):
@@ -24,7 +24,8 @@ class SubhanTvApp(QMainWindow):
 
 # Data 
         self.file_error_messages = []
-        self.prayer_times = self.try_load_data(FILE_PRAYER_TIMES_PATH)
+        self.ramadan_plan = self.try_load_ramadan_plan(FILE_RAMADAN_PLAN)
+        self.prayer_times = self.try_load_prayer_time_data(FILE_PRAYER_TIMES_PATH)
         #print(self.prayer_times.head())
         #print(self.prayer_times.dtypes)
 
@@ -38,7 +39,38 @@ class SubhanTvApp(QMainWindow):
         self.update_prayer_timer.timeout.connect(self.check_for_updated_prayer_times)
         self.update_prayer_timer.start(60000)'''
 
-    def try_load_data(self, file_path):
+    def try_load_ramadan_plan(self, file_path):
+        try:
+            ramadan_plan = []
+            wb = openpyxl.load_workbook(file_path)
+            sheet = wb.active
+
+            for row in sheet.iter_rows(min_row=2, values_only=True):
+                date, sahar, iftar = row
+                if date and sahar and iftar:
+                    if isinstance(date, str):
+                        date = QDate.fromString(date, "dd.MM.yyyy")
+                    else:
+                        date = QDate(date.year, date.month, date.day)
+
+                    sahar = str(sahar)
+                    iftar = str(iftar)
+
+                    if QDate.currentDate() == date:
+                        self.current_sahar_time = sahar
+                        self.current_iftar_time = iftar
+
+                    ramadan_plan.append({"Date": date, "Sahar": sahar, "Iftar": iftar})
+            return ramadan_plan    
+        except FileNotFoundError:
+            error_message = f"File not found: {file_path}"
+            logging.error(error_message)
+        except Exception as e:
+            error_message = f"An error occurred while loading the file: {file_path} - {str(e)}"
+            logging.error(error_message)
+        return []
+
+    def try_load_prayer_time_data(self, file_path):
         try:
             prayer_times = []
             wb = openpyxl.load_workbook(file_path)
@@ -48,9 +80,30 @@ class SubhanTvApp(QMainWindow):
                 prayer, time = row
                 if prayer and time:
                     time = time.strftime('%H:%M')
+
+                    if isinstance(time, str):
+                        qtime = QTime.fromString(time, "HH:mm")  # Falls Zeit als String gespeichert ist
+                    else:
+                        qtime = QTime(time.hour, time.minute)   # Falls Zeit als `datetime.time`-Objekt gespeichert ist
+                    print(f"Current Date {QDate.currentDate()}")    
+                    if QDate.currentDate() < QDate(2025, 3, 31): # Wenn Ramadan noch nicht vorbei ist
+                        qtime = QTime.fromString(time, "HH:mm")
+                        if prayer == "Fajr":
+                            print(f"Sahar {self.current_sahar_time}")
+                            qtime = QTime.fromString(self.current_sahar_time, "HH:mm")
+                            qtime = qtime.addSecs(20 * 60)
+                        elif prayer == "Maghrib":
+                            print(f"Iftar {self.current_iftar_time}")
+                            qtime = QTime.fromString(self.current_iftar_time, "HH:mm")
+                            qtime = qtime.addSecs(10 * 60)
+                        time = qtime.toString("HH:mm")
                     prayer_times.append({"Prayer": prayer, "HH:MM": time})
                 else:
                     continue
+
+            if QDate.currentDate() < QDate(2025, 3, 31) and self.current_sahar_time and self.current_iftar_time:
+                prayer_times.append({"Prayer": "Sahar", "HH:MM": self.current_sahar_time})
+                prayer_times.append({"Prayer": "Iftar", "HH:MM": self.current_iftar_time})
             return prayer_times
         except FileNotFoundError:
             error_message = f"File not found: {file_path}"
@@ -292,19 +345,31 @@ class SubhanTvApp(QMainWindow):
             prayer_gridLayout.setSpacing(0)
             prayer_gridLayout.setContentsMargins(0, 0, 0, 0)
 
+            index = 0
 # Korrekte Grid hier erstellen
-            for index, row in enumerate(self.prayer_times):
-                        prayer = row['Prayer']
-                        time = row['HH:MM']
-                        print(f"Prayer: {prayer}, Time: {time}")
-                        self.prayer_label = QLabel(prayer)
-                        self.prayer_label.setProperty("class", "salat_timings")
-                        prayer_gridLayout.addWidget(self.prayer_label, index, 0)
+            for row in self.prayer_times:        
+                prayer = row['Prayer']
+                time = row['HH:MM']
 
-                        time_label = QLabel(str(time))
-                        time_label.setProperty("class", "salat_timings")
-                        prayer_gridLayout.addWidget(time_label, index, 1)
+                if prayer == "Sahar":
+                    separator = QFrame()
+                    separator.setFrameShape(QFrame.HLine)  # Horizontale Linie
+                    separator.setFrameShadow(QFrame.Sunken)
+                    separator.setProperty("class", "separator")
+                    prayer_gridLayout.addWidget(separator, index, 0, 1, 2)  # Linie einfügen
+                    index += 1
+                
+                print(f"Prayer: {prayer}, Time: {time}")
+                self.prayer_label = QLabel(prayer)
+                self.prayer_label.setProperty("class", "salat_timings")
+                prayer_gridLayout.addWidget(self.prayer_label, index, 0)
+
+                time_label = QLabel(str(time))
+                time_label.setProperty("class", "salat_timings")
+                prayer_gridLayout.addWidget(time_label, index, 1)
             
+                index += 1
+
             prayer_widget.setLayout(prayer_gridLayout)
             layout.addWidget(prayer_widget)
 

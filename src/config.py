@@ -11,6 +11,7 @@ CSS_PATH = os.path.join(BASE_DIR, 'src', 'style.css')
 MEDIA_PATH = os.path.join(BASE_DIR, "media")
 KALIMA_PATH = os.path.join(BASE_DIR, 'assets', "kalima-white.png")
 FILE_PRAYER_TIMES_PATH = os.path.join(BASE_DIR, 'data', "prayer_times.xlsx")
+FILE_RAMADAN_PLAN = os.path.join(BASE_DIR, 'data', "ramadan2025.xlsx")
 LOG_PATH = os.path.join(BASE_DIR, 'application.log')
 
 # Logge die aktuellen Pfade

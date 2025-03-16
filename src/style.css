@@ -32,6 +32,10 @@ QLabel[class="footer_text"] {
     font-weight: 700;
 }
 
+QFrame[class="separator"] {
+    background-color: #141414; 
+    height: 2px;
+}
 
 QLabel[class="salat_timings"] {
     color:black;
