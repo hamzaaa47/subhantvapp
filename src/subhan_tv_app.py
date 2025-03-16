@@ -85,15 +85,15 @@ class SubhanTvApp(QMainWindow):
                         qtime = QTime.fromString(time, "HH:mm")  # Falls Zeit als String gespeichert ist
                     else:
                         qtime = QTime(time.hour, time.minute)   # Falls Zeit als `datetime.time`-Objekt gespeichert ist
-                    print(f"Current Date {QDate.currentDate()}")    
+                    #print(f"Current Date {QDate.currentDate()}")    
                     if QDate.currentDate() < QDate(2025, 3, 31): # Wenn Ramadan noch nicht vorbei ist
                         qtime = QTime.fromString(time, "HH:mm")
                         if prayer == "Fajr":
-                            print(f"Sahar {self.current_sahar_time}")
+                            #print(f"Sahar {self.current_sahar_time}")
                             qtime = QTime.fromString(self.current_sahar_time, "HH:mm")
                             qtime = qtime.addSecs(20 * 60)
                         elif prayer == "Maghrib":
-                            print(f"Iftar {self.current_iftar_time}")
+                            #print(f"Iftar {self.current_iftar_time}")
                             qtime = QTime.fromString(self.current_iftar_time, "HH:mm")
                             qtime = qtime.addSecs(10 * 60)
                         time = qtime.toString("HH:mm")
@@ -359,7 +359,6 @@ class SubhanTvApp(QMainWindow):
                     prayer_gridLayout.addWidget(separator, index, 0, 1, 2)  # Linie einfügen
                     index += 1
                 
-                print(f"Prayer: {prayer}, Time: {time}")
                 self.prayer_label = QLabel(prayer)
                 self.prayer_label.setProperty("class", "salat_timings")
                 prayer_gridLayout.addWidget(self.prayer_label, index, 0)
