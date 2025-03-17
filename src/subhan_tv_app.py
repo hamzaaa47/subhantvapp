@@ -23,6 +23,11 @@ class SubhanTvApp(QMainWindow):
         #self.showFullScreen()
 
 # Data 
+        # Überwachung der Gebetszeiten-Datei
+        self.file_watcher = QFileSystemWatcher(self)
+        self.file_watcher.addPath(FILE_PRAYER_TIMES_PATH)
+        self.file_watcher.fileChanged.connect(self.reload_prayer_times)
+
         self.file_error_messages = []
         self.ramadan_plan = self.try_load_ramadan_plan(FILE_RAMADAN_PLAN)
         self.prayer_times = self.try_load_prayer_time_data(FILE_PRAYER_TIMES_PATH)
@@ -38,6 +43,16 @@ class SubhanTvApp(QMainWindow):
         self.update_prayer_timer = QTimer(self)
         self.update_prayer_timer.timeout.connect(self.check_for_updated_prayer_times)
         self.update_prayer_timer.start(60000)'''
+
+    def reload_prayer_times(self):
+        """Wird aufgerufen, wenn die Excel-Datei geändert wird"""
+        logging.info("Gebetszeiten-Datei wurde aktualisiert. Lade neue Zeiten...")
+        self.file_watcher.addPath(FILE_PRAYER_TIMES_PATH)
+        try:
+            self.prayer_times = self.try_load_prayer_time_data(FILE_PRAYER_TIMES_PATH)
+            self.updatePrayerTimesUI()
+        except Exception as e:
+            logging.error(f"Fehler beim Laden der Gebetszeiten: {str(e)}")
 
     def try_load_ramadan_plan(self, file_path):
         try:
@@ -140,20 +155,6 @@ class SubhanTvApp(QMainWindow):
             error_message = f"Failed to initialize the UI: {str(e)}"
             logging.error(error_message)
             #print(error_message) 
-
-    '''    def check_for_updated_prayer_times(self):
-        # Lade die Gebetszeiten neu
-        new_prayer_times = self.try_load_data(FILE_PRAYER_TIMES_PATH)
-        
-        # Überprüfe, ob sich die Gebetszeiten geändert haben
-        if new_prayer_times != self.prayer_times:
-            self.prayer_times = new_prayer_times
-            self.updatePrayerTimesUI()
-    
-    def updatePrayerTimesUI(self):
-        # Hier die Methode, um das Gebetszeiten-Widget zu aktualisieren
-        self.addPrayerTimes(self.sideBar_layout)
-    '''
 
     def updateTimeAndDate(self):
         try:
@@ -272,32 +273,32 @@ class SubhanTvApp(QMainWindow):
         sideBar_widget.setFixedHeight(MEDIA_PLAYER_HEIGHT)
         sideBar_widget.setFixedWidth(WIDTH-MEDIA_PLAYER_WIDTH)
         
-        sideBar_layout = QVBoxLayout()
-        sideBar_layout.addStretch()
+        self.sideBar_layout = QVBoxLayout()
+        self.sideBar_layout.addStretch()
 
         self.analog_clock = Clock(self)
-        sideBar_layout.addWidget(self.analog_clock)
+        self.sideBar_layout.addWidget(self.analog_clock)
         
         self.digital_clock = QLabel("00:00:00")
         self.digital_clock.setAlignment(Qt.AlignCenter)
         self.digital_clock.setObjectName("digital_clock")
-        sideBar_layout.addWidget(self.digital_clock)
+        self.sideBar_layout.addWidget(self.digital_clock)
 
         self.date_label = QLabel()
         self.date_label.setAlignment(Qt.AlignCenter)
         self.date_label.setObjectName("date")
-        sideBar_layout.addWidget(self.date_label)
+        self.sideBar_layout.addWidget(self.date_label)
 
         gebetszeiten = QLabel("Gebetszeiten")
         gebetszeiten.setObjectName("gebetszeiten_heading")
         gebetszeiten.setAlignment(Qt.AlignCenter)
-        sideBar_layout.addWidget(gebetszeiten)
+        self.sideBar_layout.addWidget(gebetszeiten)
 
-        self.addPrayerTimes(sideBar_layout)
+        self.addPrayerTimes()
 
-        sideBar_layout.addStretch()
-        sideBar_layout.setContentsMargins(0, 0, 0, 0)
-        sideBar_widget.setLayout(sideBar_layout)
+        self.sideBar_layout.addStretch()
+        self.sideBar_layout.setContentsMargins(0, 0, 0, 0)
+        sideBar_widget.setLayout(self.sideBar_layout)
         hbox_middle_layout.addWidget(sideBar_widget)
         
         hbox_middle_layout.addWidget(mediaPlayer_widget, 8) 
@@ -337,10 +338,9 @@ class SubhanTvApp(QMainWindow):
         vbox_layout.addStretch(1)
         return vbox_widget
     
-    def addPrayerTimes(self, layout):
+    def addPrayerTimes(self):
         if self.prayer_times:
-
-            prayer_widget = QWidget()
+            self.prayer_widget = QWidget()
             prayer_gridLayout = QGridLayout()
             prayer_gridLayout.setSpacing(0)
             prayer_gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -369,14 +369,23 @@ class SubhanTvApp(QMainWindow):
             
                 index += 1
 
-            prayer_widget.setLayout(prayer_gridLayout)
-            layout.addWidget(prayer_widget)
+            self.prayer_widget.setLayout(prayer_gridLayout)
+            self.sideBar_layout.addWidget(self.prayer_widget)
 
-    def updatePrayerTimes(self, name, time):
-        self.addPrayerTime(name, time)
+    def updatePrayerTimesUI(self):
+        """ Ersetzt das Widget mit den neuen Gebetszeiten """
+        try:
+            # Entferne das alte Widget
+            if self.prayer_widget:
+                self.prayer_widget.setParent(None)  # Entfernt es aus dem Layout
 
-    def addPrayerTime(self, name, time):
-        self.prayer_times.append({"Prayer": name, "Time": time})
+            # Erstelle ein neues Widget mit aktualisierten Gebetszeiten
+            self.addPrayerTimes()
+            
+            logging.info("Gebetszeiten in der UI erfolgreich aktualisiert.")
+        except Exception as e:
+            logging.error(f"Fehler beim Aktualisieren der Gebetszeiten: {str(e)}")
+
 
     def toggleHeaderWidgets(self):
         # Entscheide, welche Animation in welche Richtung läuft

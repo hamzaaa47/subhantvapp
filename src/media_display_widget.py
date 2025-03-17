@@ -50,6 +50,12 @@ class MediaDisplayWidget(QWidget):
 
         self.layout.addWidget(self.video_widget)
         self.layout.addWidget(self.image_label)
+        
+        self.file_watcher = QFileSystemWatcher(self)
+        self.file_watcher.addPath(MEDIA_PATH)  # Überwacht das Medienverzeichnis
+        self.file_watcher.directoryChanged.connect(self.reload_media)
+        
+        
         self.player = QMediaPlayer(self)
         self.audio_output = QAudioOutput(self)
         self.player.setAudioOutput(self.audio_output)  # Verbinde AudioOutput mit MediaPlayer
@@ -70,6 +76,12 @@ class MediaDisplayWidget(QWidget):
         self.current_media = "image"
         self.load_media_files(MEDIA_PATH)
     
+    def reload_media(self):
+        """ Lädt die Medien neu, wenn sich der Ordner ändert """
+        logging.info("Media directory changed, reloading media files.")
+        self.media_cache.cache.clear()
+        self.load_media_files(MEDIA_PATH)
+
     def load_media_files(self, relative_directory):
         directory = os.path.join(BASE_DIR, relative_directory)
         
@@ -78,7 +90,7 @@ class MediaDisplayWidget(QWidget):
             for file in os.listdir(directory):
                 media = self.media_cache.get_media(os.path.join(directory, file))
                 if isinstance(media, QPixmap):
-                    self.media_files.append((media, 10000))  # 10 seconds for images
+                    self.media_files.append((media, 2000))  # 10 seconds for images
                 else:
                     self.media_files.append((media, 0))  # Duration handled by video metadata
             if self.media_files:
