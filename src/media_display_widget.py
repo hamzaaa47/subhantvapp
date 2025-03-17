@@ -3,10 +3,9 @@ from PySide6.QtMultimediaWidgets import *
 from PySide6.QtMultimedia import *
 from PySide6.QtCore import *
 from PySide6.QtGui import *
-from functools import lru_cache
 import os
 import logging
-from config import BASE_DIR, MEDIA_PLAYER_HEIGHT, MEDIA_PATH, MEDIA_PLAYER_WIDTH
+from config import BASE_DIR, MEDIA_PLAYER_HEIGHT, MEDIA_PATH, MEDIA_PLAYER_WIDTH, IMAGE_TIMER
 
 class MediaCache:
     def __init__(self):
@@ -90,7 +89,7 @@ class MediaDisplayWidget(QWidget):
             for file in os.listdir(directory):
                 media = self.media_cache.get_media(os.path.join(directory, file))
                 if isinstance(media, QPixmap):
-                    self.media_files.append((media, 2000))  # 10 seconds for images
+                    self.media_files.append((media, IMAGE_TIMER)) 
                 else:
                     self.media_files.append((media, 0))  # Duration handled by video metadata
             if self.media_files:

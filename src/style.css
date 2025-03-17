@@ -34,7 +34,7 @@ QLabel[class="footer_text"] {
 
 QFrame[class="separator"] {
     background-color: #141414; 
-    height: 2px;
+    border: none;
 }
 
 QLabel[class="salat_timings"] {
@@ -62,7 +62,8 @@ QLabel#date {
 QLabel#gebetszeiten_heading {
     color:black;
     font-size: 40px;
-    font-family: "Garamond";
+    font-family: "Montserrat"; 
+    letter-spacing: 2px;
     padding-bottom: 10px;
     font-weight: 700;
 }

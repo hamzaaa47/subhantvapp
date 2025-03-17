@@ -354,7 +354,6 @@ class SubhanTvApp(QMainWindow):
                 if prayer == "Sahar":
                     separator = QFrame()
                     separator.setFrameShape(QFrame.HLine)  # Horizontale Linie
-                    separator.setFrameShadow(QFrame.Sunken)
                     separator.setProperty("class", "separator")
                     prayer_gridLayout.addWidget(separator, index, 0, 1, 2)  # Linie einfügen
                     index += 1
