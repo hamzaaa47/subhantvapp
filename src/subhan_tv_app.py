@@ -31,6 +31,7 @@ class SubhanTvApp(QMainWindow):
         self.file_error_messages = []
         self.ramadan_plan = self.try_load_ramadan_plan(FILE_RAMADAN_PLAN)
         self.prayer_times = self.try_load_prayer_time_data(FILE_PRAYER_TIMES_PATH)
+        self.last_checked_date = QDate.currentDate()
         #print(self.prayer_times.head())
         #print(self.prayer_times.dtypes)
 
@@ -165,6 +166,13 @@ class SubhanTvApp(QMainWindow):
             currentDate = locale.toString(QDate.currentDate(), "dddd, dd.MM.yyyy")
             if self.date_label.text() != currentDate:
                 self.date_label.setText(currentDate)
+            
+            # Datum prüfen und ggf. Sahar/Iftar aktualisieren
+            if QDate.currentDate() != self.last_checked_date:
+                self.last_checked_date = QDate.currentDate()
+                self.logger.info("Neuer Tag erkannt aktualisiere Sahar und Iftar Zeiten.")
+                self.updatePrayerTimesUI()
+
         except Exception as e:
             error_message = f"Error updating time and date: {str(e)}"
             logging.error(error_message)
