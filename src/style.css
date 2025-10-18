@@ -68,6 +68,11 @@ QLabel#gebetszeiten_heading {
     font-weight: 700;
 }
 
+QWidget[class="status_bar"] {
+    background-color: grey;
+}
+
+
 /* 
 
 Garamond

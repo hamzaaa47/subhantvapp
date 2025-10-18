@@ -1,5 +1,8 @@
 import openpyxl
 import logging
+import requests
+import socket
+from logging_signals import log_signals
 from PySide6.QtWidgets import QMainWindow
 from PySide6.QtWidgets import *
 from PySide6.QtGui import *
@@ -15,6 +18,7 @@ class SubhanTvApp(QMainWindow):
         super().__init__()
         self.logger = logging.getLogger(__name__)  
         self.logger.info("Initializing SubhanTvApp")
+        log_signals.log_message.connect(self.handle_log_message)
 
         self.setWindowTitle("Subhan Moschee TV")
         #print(f"ss {self.size()}")
@@ -39,6 +43,11 @@ class SubhanTvApp(QMainWindow):
 # Create UI
         self.createUI()
 
+        self.status_timer = QTimer()
+        self.status_timer.timeout.connect(self.update_icons)
+        self.status_timer.start(30000)  # alle 30 Sekunden
+
+        self.update_icons()
 # Timer für Datenauslesen
         '''
         self.update_prayer_timer = QTimer(self)
@@ -304,7 +313,39 @@ class SubhanTvApp(QMainWindow):
 
         self.addPrayerTimes()
 
-        self.sideBar_layout.addStretch()
+        status_layout = QHBoxLayout()
+        status_layout.setAlignment(Qt.AlignRight)
+        status_layout.setContentsMargins(10, 5, 10, 5)
+        status_layout.setSpacing(12)
+
+        # Beispielhafte Icons – du kannst Pfade zu PNGs verwenden
+        self.internet_icon = QLabel()
+        self.internet_icon.setPixmap(QPixmap("assets/wifi.png").scaled(24, 24, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        status_layout.addWidget(self.internet_icon)
+
+        self.warning_icon = QLabel()
+        self.warning_icon.setPixmap(QPixmap("assets/warning.png").scaled(24, 24, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        status_layout.addWidget(self.warning_icon)
+        self.warning_icon.setVisible(False)
+
+        self.error_icon = QLabel()
+        self.error_icon.setPixmap(QPixmap("assets/error.png").scaled(24, 24, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        status_layout.addWidget(self.error_icon)
+        self.error_icon.setVisible(False)
+
+        self.tunnel_icon = QLabel()
+        self.tunnel_icon.setPixmap(QPixmap("assets/tunnel.png").scaled(24, 24, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        status_layout.addWidget(self.tunnel_icon)
+
+        status_widget = QWidget()
+        status_widget.setLayout(status_layout)
+        status_widget.setProperty("class", "status_bar")
+
+        self.sideBar_layout.addWidget(status_widget)       
+
+
+
+        #self.sideBar_layout.addStretch()
         self.sideBar_layout.setContentsMargins(0, 0, 0, 0)
         sideBar_widget.setLayout(self.sideBar_layout)
         hbox_middle_layout.addWidget(sideBar_widget)
@@ -346,6 +387,50 @@ class SubhanTvApp(QMainWindow):
         vbox_layout.addStretch(1)
         return vbox_widget
     
+    def has_internet_connection(self, url="https://www.google.com", timeout=3):
+        try:
+            requests.get(url, timeout=timeout)
+            return True
+        except requests.RequestException:
+            return False
+
+    def is_tunnel_active(self, host="localhost", port=22, timeout=2):
+        try:
+            with socket.create_connection((host, port), timeout=timeout):
+                return True
+        except (socket.timeout, ConnectionRefusedError, OSError):
+            return False
+
+    def update_icons(self):
+        if self.has_internet_connection():
+            internet_icon_path = "assets/wifi.png"
+            #tooltip = "Internetverbindung: OK"
+
+            if self.is_tunnel_active():  
+                tunnel_icon_path = "assets/tunnel.png"
+            else:
+                tunnel_icon_path = "assets/no-tunnel.png"
+        else:
+            internet_icon_path = "assets/no-wifi.png"
+            #tooltip = "Keine Internetverbindung"
+            tunnel_icon_path = "assets/no-tunnel.png"
+
+        self.internet_icon.setPixmap(QPixmap(internet_icon_path).scaled(24, 24, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        self.tunnel_icon.setPixmap(QPixmap(tunnel_icon_path).scaled(24, 24, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        #self.internet_icon.setToolTip(tooltip)
+
+    def handle_log_message(self, level, message):
+        if level in ["ERROR", "CRITICAL"]:
+            self.error_icon.setVisible(True)
+            self.error_icon.setToolTip(message)
+            QTimer.singleShot(60000, lambda: self.error_icon.setVisible(False))
+        elif level == "WARNING":
+            self.warning_icon.setVisible(True)
+            self.warning_icon.setToolTip(message)
+            QTimer.singleShot(60000, lambda: self.warning_icon.setVisible(False))
+
+
+
     def addPrayerTimes(self):
         if self.prayer_times:
             self.prayer_widget = QWidget()
